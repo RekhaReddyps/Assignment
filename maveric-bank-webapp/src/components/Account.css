@@ -1,0 +1,69 @@
+.account {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: -5%;
+}
+
+.account-userInfo {
+    display: flex;
+    padding: 1%;
+    border: 2px solid black;
+    margin: 2%;
+    width: 90%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background: #e7e7e7;
+}
+
+.account-transactionInfo {
+    display: flex;
+    padding: 1%;
+    border: 2px solid black;
+    margin: 2%;
+    width: 90%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background: #e7e7e7;
+    margin-top: 1%;
+    max-height: 190px;
+    overflow: auto;
+}
+
+.account-table-userInfo {
+    text-align: left;
+    width: 100%;
+}
+
+.accountUserDetail {
+    width: 85%;
+}
+
+table > tr {
+    vertical-align: top !important;
+}
+
+.accountUserDetailField {
+    width: 15%;
+    padding-bottom: 1%;
+}
+
+.account-table-transactionInfo {
+    width: 100%;
+    text-align: center;
+    border: 2px solid black;
+    overflow: auto;
+}
+
+.transactionDetail, .transactionDetailField {
+    padding: 1%;
+    border: 2px solid black;
+}
+
+th {
+    background-color: #214e8f;
+    color: white;
+}
+
+.account-table-transactionInfo > tr:nth-child(even) {
+    background-color: white;
+}

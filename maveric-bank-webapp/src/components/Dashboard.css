@@ -1,0 +1,78 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: -5%;
+}
+
+.dashboard-userInfo {
+    display: flex;
+    padding: 1%;
+    border: 2px solid black;
+    margin: 2%;
+    width: 90%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background: #e7e7e7;
+}
+
+.dashboard-accountInfo {
+    display: flex;
+    padding: 1%;
+    border: 2px solid black;
+    margin: 2%;
+    width: 90%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background: #e7e7e7;
+    margin-top: 1%;
+    max-height: 190px;
+    overflow: auto;
+}
+
+.dashboard-table-userInfo {
+    text-align: left;
+    width: 100%;
+}
+
+.userDetail {
+    width: 85%;
+}
+
+table > tr {
+    vertical-align: top !important;
+}
+
+.userDetailField {
+    width: 15%;
+    padding-bottom: 1%;
+    font-weight: bold;
+}
+
+.dashboard-table-accountInfo {
+    width: 100%;
+    text-align: left;
+    border: 2px solid black;
+    overflow: auto;
+}
+
+.accountDetail, .accountDetailField {
+    padding: 1%;
+    border: 2px solid black;
+}
+
+.accountAction {
+    width: 10%;
+}
+
+th {
+    background-color: #214e8f;
+    color: white;
+}
+
+.dashboard-table-accountInfo > tr:nth-child(even) {
+    background-color: white;
+}
+
+.textcenter{
+    text-align: center !important;
+}

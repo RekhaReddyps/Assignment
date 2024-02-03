@@ -1,0 +1,11 @@
+[33m19f435c[m[33m ([m[1;36mHEAD -> [m[1;32mfeature/getAccounts[m[33m, [m[1;31morigin/feature/getAccounts[m[33m)[m adding the get accountstest is implementing
+[33m13cc46b[m account by Id is implemented
+[33m4aad8b7[m adding the exception to getaccountbycustomerId
+[33m6b1ef24[m implementing the get account list
+[33m9242f6e[m delete feature is implemented
+[33me0377c2[m update the delete code
+[33md8df209[m intial commit
+[33m068314e[m updateing the update Account
+[33mf00991b[m Account created
+[33m11cd7b4[m Add packages are addeed
+[33mf06576e[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m Intialising springboot project

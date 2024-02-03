@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: Roboto, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  overflow: hidden;
+  min-height: 100%;
+  border: 2px solid black;
+}
+
+html {
+  font-family: Roboto, Helvetica, sans-serif;
+  height: 100%;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  border: 2px solid black;
+  background-color: #ffffff;
+  padding: 1rem;
+  top: 0;
+}
+
+.header-text {
+  font-weight: bold;
+  vertical-align: super;
+}
+
+.footer {
+  width: 100%;
+  border: 2px solid black;
+  background-color: #214e8f;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+}
+
+.footer-text {
+  font-weight: bold;
+  padding: 1rem;
+}
+
+.footer-img {
+  width: 10%;
+}
+
+.app-body {
+  width: 100%;
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+}
+
+.header-logout{
+  float: right;
+  margin-right: 10%;
+}
+
+.header-logout-button {
+  width: 100%;
+  padding: 10%;
+  color: white;
+  border-radius: 7px;
+  box-shadow: 0 7px 0px #1f3d68;
+  display: inline-block;
+  transition: all .2s;
+  position: relative;
+  position: relative;
+  top: 0;
+  cursor: pointer;
+  margin:0 20px;
+}
+
+.header-logout-button:active {
+  top: 3px;
+  box-shadow: 0 2px 0px #1f3d68;
+  transition: all .2s;
+}
+
+.display {
+  display: none;
+}
